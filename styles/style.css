@@ -86,3 +86,10 @@ img{
 .home{
   width: 100%;
 }
+
+svg{
+  display: block;
+  position: absolute;
+  top: 373px;
+  left: 1083px;
+}
