@@ -16,13 +16,13 @@ fetch("lol.json")
 
 // functie maken + de lengte en breedte bepalen
 function procent(dataSet) {
-  const chartWidth = 22;
+  const chartWidth = 260;
   const chartHeight = 105;
 
   // X-as
   const xScale = d3
     .scaleLinear()
-    .domain([0, d3.max(dataSet, (d) => d.Percentage)])
+    .domain([0, 100])
     .range([0, chartWidth]);
 
   // Y-as
