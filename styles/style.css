@@ -83,14 +83,6 @@ img{
   margin-right: 15px;
 }
 
-.container1{
-  border-radius: 1em;
-  background-color: var(--lightblue);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding-bottom: 30px;
-}
-
-.pie text {
-  fill: var(--grey);
+.home{
+  width: 100%;
 }
