@@ -8,10 +8,10 @@
     --blue: #01689b;
     --lightblue: #CCE0F1;
     --white: #fff;
+    --beige: #efefea;
 }
 
 body {
-  background: var(--white);
   font-family: sans-serif;
 }
 
@@ -87,9 +87,135 @@ img{
   width: 100%;
 }
 
+.onder{
+  width: 100%;
+  position: relative;
+  top: -70px;
+}
+
 svg{
   display: block;
   position: absolute;
   top: 373px;
   left: 1083px;
+}
+
+p{
+  color: var(--grey);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 14em;
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+  position: relative;
+  top: -.5em;
+  background-color: var(--beige);
+}
+
+.carousel{
+  width: 100%;
+  height: 300px;
+  background: var(--beige);
+  position: relative;
+  top: -4em;
+}
+
+.carousel-container {
+  width: 1350px;
+  margin: 50px auto;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .carousel-container {
+    width: 95%;
+  }
+}
+
+.inner-carousel {
+  width: 100%;
+  height: 275px;
+  overflow: hidden;
+}
+
+.track {
+  display: inline-flex;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-container {
+  width: 400px;
+  height: 300px;
+  flex-shrink: 0;
+  padding-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    width: 184px;
+  }
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.card1 {
+  background-image: url("images/1.png");
+}
+
+.card2 {
+  background-image: url("images/2.png");
+}
+
+.card3 {
+  background-image: url("images/3.png");
+}
+
+.card4 {
+  background-image: url("images/4.png");
+}
+
+.card5 {
+  background-image: url("images/5.png");
+}
+
+.card6 {
+  background-image: url("images/6.png");
+}
+
+.nav button {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  outline: none;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.nav .prev {
+  left: -30px;
+  display: none;
+}
+
+.nav .prev.show {
+  display: block;
+}
+
+.nav .next {
+  right: -30px;
+}
+
+.nav .next.hide {
+  display: none;
+}
+
+button{
+  font-size: 30px;
 }
