@@ -15,6 +15,7 @@ export default defineConfig({
                 onderzoeken: resolve(__dirname, 'onderzoeken.html'),
                 archive: resolve(__dirname, 'archive.html'),
                 inventaris: resolve(__dirname, 'inventaris.html'),
+                preview: resolve(__dirname, 'preview.html'),
             }
         }
     }
