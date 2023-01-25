@@ -13,6 +13,8 @@ export default defineConfig({
             input: {
                 main: resolve(__dirname, 'index.html'),
                 onderzoeken: resolve(__dirname, 'onderzoeken.html'),
+                archive: resolve(__dirname, 'archive.html'),
+                inventaris: resolve(__dirname, 'inventaris.html'),
             }
         }
     }
