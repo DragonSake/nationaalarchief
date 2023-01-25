@@ -43,6 +43,7 @@ function procent(dataSet) {
     .attr("fill", "#C9005C")
 }
 
+// https://codepen.io/Rraidas/pen/dyXGoea
 const prev = document.querySelector(".prev");
 const next = document.querySelector(".next");
 const carousel = document.querySelector(".carousel-container");
