@@ -17,3 +17,14 @@ Het bewustzijn van onderzoekers op de website vergroten dat nog niet alles is ge
 Wie is de doelgroep?
 
 Historici die onderzoek wil doen naar de VOC.
+
+***
+Installatie
+
+Installeer Git, Node en NPM.
+
+Gebruik de codes
+
+npm install
+
+npm run dev
